@@ -2,9 +2,12 @@ MAMAN 14
 AUTHOR Nadav Razabi
  
 
-Each source file has a corresponding header file which includes functions' prototypes and documentation of these function. All files include the main header.
+Each source file has a corresponding header file which includes functions' prototypes and documentation of these function.
+All files include the main header.
 Documentation is inside the source files and the headers.
 
 Genral outline:
-The assembler firstly parses the text, saving information in three lists - instruction list, symbol list and data list. Then is assembles them by translating the pieces of information to machine code and printing them to the object file. In addition, if ther are .extern lines it creates .ext file and if there are .entry lines a .ent file. 
+The assembler firstly parses the text, saving information in three lists - instruction list, symbol list and data list.
+Then is assembles them by translating the pieces of information to machine code and printing them to the object file.
+In addition, if ther are .extern lines it creates .ext file and if there are .entry lines a .ent file. 
 
